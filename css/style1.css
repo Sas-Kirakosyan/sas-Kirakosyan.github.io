@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Dosis:400,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700');
+ * {
+    
+    padding: 0px;
+  }
+  body {
+    font-size: 120%;
+    background: #F8F8FF;
+    font-family: "Roboto Condensed", sans-serif;
+  }
+#mylogin-form{
+      display:none;
+      position: fixed;
+      z-index: 6000;
+      margin-top:30px;
+      margin-left:0;
+      width:100%;
+  }
+  /* sas-Kirakosyan.github.io */
+  
+  /* @media screen and (max-width:650px){
+    #mylogin-form{
+      width:80%;
+    }
+    .header-login{
+      width:50%;
+    }
+    form, .content {
+      width: 50%;
+  } */
+.header-login {
+    width: 30%;
+    margin: 50px auto 0px;
+    color: white;
+    background: #5F9EA0;
+    text-align: center;
+    border: 1px solid #B0C4DE;
+    border-bottom: none;
+    border-radius: 10px 10px 0px 0px;
+    padding: 5px 20px 5px 20px;
+  }
+  form, .content {
+    width: 30%;
+    margin: 0px auto;
+    padding: 20px;
+    border: 1px solid #B0C4DE;
+    background: white;
+    border-radius: 0px 0px 10px 10px;
+  }
+  @media screen and (max-width:650px){
+    .header-login {
+      width: 70%;
+    }
+    form, .content {
+      width: 70%;
+    }
+  }
+  
+  .input-group {
+    margin: 10px 0px 10px 0px;
+  }
+  .input-group label {
+    display: block;
+    text-align: left;
+    margin: 3px;
+  }
+  .input-group input {
+    height: 30px;
+    width: 93%;
+    /* padding: 5px 10px; */
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid gray;
+  }
+  .btn {
+    padding: 10px;
+    font-size: 15px;
+    color: white;
+    background: #5F9EA0;
+    border: none;
+    border-radius: 5px;
+  }
+  .btn:hover{
+    background: rgb(95, 133, 134);
+  }
+  .btn a{
+    color:white;
+  }
+  .error {
+    width: 92%; 
+    margin: 0px auto; 
+    padding: 10px; 
+    border: 1px solid #a94442; 
+    color: #a94442; 
+    background: #f2dede; 
+    border-radius: 5px; 
+    text-align: left;
+  }
+  .success {
+    color: #3c763d; 
+    background: #dff0d8; 
+    border: 1px solid #3c763d;
+    margin-bottom: 20px;
+  }
